@@ -23,10 +23,6 @@ app.listen(puerto, function () {
  
 //Recursos
 app.use(express.static(__dirname+'/'));
- 
- 
- 
- 
 var mysql = require("mysql");
  
 var cors = require("cors");
